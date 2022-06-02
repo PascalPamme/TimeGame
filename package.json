@@ -1,0 +1,27 @@
+{
+  "name": "cesar",
+  "version": "1.0.0",
+  "description": "App to encode into Caesar cipher",
+  "main": "http-server ./public",
+  "scripts": {
+    "start": "http-server ./public",
+    "lint": "eslint public/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PascalPamme/TimeGame.git"
+  },
+  "author": "PascalPamme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PascalPamme/TimeGame"
+  },
+  "homepage": "https://github.com/PascalPamme/TimeGame#readme",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
